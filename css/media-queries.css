@@ -151,7 +151,8 @@ i {
         width: 66%;
     }
 
-    sub-section {
+    .sub-section {
+        margin-top: 1em;
         width: 33%;
     }
 
