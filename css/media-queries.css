@@ -32,6 +32,11 @@ h1 {
     font-size: 4em;
 }
 
+.header-container {
+    text-align: center;
+    width: 100%;
+}
+
 .nav-links {
     display: flex;
     /*flex-direction: column;*/
@@ -79,35 +84,6 @@ footer{
 }
 
 @media screen and (min-width:600px){
-nav{
-    width: fit-content;
-    display: inline;
-    align-self: flex-end;
-}
-    body{
-        align-items: flex-start;
-        justify-content: space-between;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    h1{
-        display: inline;
-    }
-    .hidden-on-desktop{
-        display: none;
-    }
-    .nav-links{
-        display: inline;
 
-    }
 
-    li{
-        width: fit-content;
-        padding: 0;
-        background-color: white;
-        display: inline;
-    }
-    .header-img{
-        margin-top: 3em;
-    }
 }
